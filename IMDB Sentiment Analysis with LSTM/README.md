@@ -21,12 +21,12 @@ The dataset is automatically downloaded by `train.py`.
 git clone https://github.com/yourusername/imdb-sentiment-lstm.git
 cd imdb-sentiment-lstm
 
-2. Train the model
-3. Saved Model
+2. Train and Save Model
+
 After training, the model is saved in:
 imdb_lstm_model/
 
-4. You can load it with:
+3. You can load it with:
 
 from tensorflow import keras
 model = keras.models.load_model("imdb_lstm_model")
