@@ -17,17 +17,16 @@ We use the [Large Movie Review Dataset](http://ai.stanford.edu/~amaas/data/senti
 The dataset is automatically downloaded by `train.py`.
 
 ## 🚀 How to Run
-### 1. Clone the repository
-```bash
+1. Clone the repository:
 git clone https://github.com/yourusername/imdb-sentiment-lstm.git
 cd imdb-sentiment-lstm
------------------------------------------------------------------
-Train the model
-Saved Model
+
+2. Train the model
+3. Saved Model
 After training, the model is saved in:
 imdb_lstm_model/
 
-You can load it with:
+4. You can load it with:
 
 from tensorflow import keras
 model = keras.models.load_model("imdb_lstm_model")
