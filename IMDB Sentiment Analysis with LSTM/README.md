@@ -18,6 +18,7 @@ The dataset is automatically downloaded by `train.py`.
 
 ## 🚀 How to Run
 1. Clone the repository:
+
 git clone https://github.com/yourusername/imdb-sentiment-lstm.git
 cd imdb-sentiment-lstm
 
